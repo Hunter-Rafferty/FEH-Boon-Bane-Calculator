@@ -1,0 +1,185 @@
+#include <iostream>
+
+using namespace std;
+
+int lvlFortyStatHP;
+int lvlFortyStatATK;
+int lvlFortyStatSPD;
+int lvlFortyStatDEF;
+int lvlFortyStatRES;
+int lvlOneStatHP;
+int lvlOneStatATK;
+int lvlOneStatSPD;
+int lvlOneStatDEF;
+int lvlOneStatRES;
+
+int main()
+{
+    cout<<"Insert level 40 HP stat: "<<endl;
+    cin>>lvlFortyStatHP;
+
+    cout<<endl;
+
+    cout<<"Insert level 40 ATK stat: "<<endl;
+    cin>>lvlFortyStatATK;
+
+    cout<<endl;
+
+    cout<<"Insert level 40 SPD stat: "<<endl;
+    cin>>lvlFortyStatSPD;
+
+    cout<<endl;
+
+    cout<<"Insert level 40 DEF stat: "<<endl;
+    cin>>lvlFortyStatDEF;
+
+    cout<<endl;
+
+    cout<<"Insert level 40 RES stat: "<<endl;
+    cin>>lvlFortyStatRES;
+
+    cout<<endl;
+
+    cout<<"Insert level 1 HP stat: "<<endl;
+    cin>>lvlOneStatHP;
+
+    cout<<endl;
+
+    cout<<"Insert level 1 ATK stat: "<<endl;
+    cin>>lvlOneStatATK;
+
+    cout<<endl;
+
+    cout<<"Insert level 1 SPD stat: "<<endl;
+    cin>>lvlOneStatSPD;
+
+    cout<<endl;
+
+    cout<<"Insert level 1 DEF stat: "<<endl;
+    cin>>lvlOneStatDEF;
+
+    cout<<endl;
+
+    cout<<"Insert level 1 RES stat: "<<endl;
+    cin>>lvlOneStatRES;
+
+    cout<<endl;
+
+
+
+    cout<<"======================================="<<endl;
+
+if((lvlFortyStatHP - lvlOneStatHP) == 10){
+    cout<<"HP: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatHP - lvlOneStatHP) == 19){
+    cout<<"HP: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatHP - lvlOneStatHP) == 30){
+    cout<<"HP: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatHP - lvlOneStatHP) == 13){
+    cout<<("HP: This stat is a superbane...")<<endl;
+}
+else if((lvlFortyStatHP - lvlOneStatHP) == 22){
+    cout<<("HP: This stat is a superbane...")<<endl;
+}
+else if((lvlFortyStatHP - lvlOneStatHP) == 33){
+    cout<<("HP: This stat is a superbane...")<<endl;
+}
+else
+cout<<("HP: This stat is the usual +3/-3")<<endl;
+
+
+if((lvlFortyStatATK - lvlOneStatATK) == 10){
+    cout<<"ATK: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatATK - lvlOneStatATK) == 19){
+    cout<<"ATK: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatATK - lvlOneStatATK) == 30){
+    cout<<"ATK: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatATK - lvlOneStatATK) == 13){
+    cout<<("ATK: This stat is a superbane...")<<endl;
+}
+else if((lvlFortyStatATK - lvlOneStatATK) == 22){
+    cout<<("ATK: This stat is a superbane...")<<endl;
+}
+else if((lvlFortyStatATK - lvlOneStatATK) == 33){
+    cout<<("ATK: This stat is a superbane...")<<endl;
+}
+else
+cout<<("ATK: This stat is the usual +3/-3")<<endl;
+
+
+
+if((lvlFortyStatSPD - lvlOneStatSPD) == 10){
+    cout<<"SPD: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatSPD - lvlOneStatSPD) == 19){
+    cout<<"SPD: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatSPD - lvlOneStatSPD) == 30){
+    cout<<"SPD: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatSPD - lvlOneStatSPD) == 13){
+    cout<<("SPD: This stat is a superbane...")<<endl;
+}
+else if((lvlFortyStatSPD - lvlOneStatSPD) == 22){
+    cout<<("SPD: This stat is a superbane...")<<endl;
+}
+else if((lvlFortyStatSPD - lvlOneStatSPD) == 33){
+    cout<<("SPD: This stat is a superbane...")<<endl;
+}
+else
+cout<<("SPD: This stat is the usual +3/-3")<<endl;
+
+
+if((lvlFortyStatDEF - lvlOneStatDEF) == 10){
+    cout<<"DEF: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatDEF - lvlOneStatDEF) == 19){
+    cout<<"DEF: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatDEF - lvlOneStatDEF) == 30){
+    cout<<"DEF: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatDEF - lvlOneStatDEF) == 13){
+    cout<<("DEF: This stat is a superbane...")<<endl;
+}
+else if((lvlFortyStatDEF - lvlOneStatDEF) == 22){
+    cout<<("DEF: This stat is a superbane...")<<endl;
+}
+else if((lvlFortyStatDEF - lvlOneStatDEF) == 33){
+    cout<<("DEF: This stat is a superbane...")<<endl;
+}
+else
+cout<<("DEF: This stat is the usual +3/-3")<<endl;
+
+
+
+if((lvlFortyStatRES - lvlOneStatRES) == 10){
+    cout<<"RES: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatRES - lvlOneStatRES) == 19){
+    cout<<"RES: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatRES - lvlOneStatRES) == 30){
+    cout<<"RES: This stat is a superboon!"<<endl;
+}
+else if((lvlFortyStatRES - lvlOneStatRES) == 13){
+    cout<<("RES: This stat is a superbane...")<<endl;
+}
+else if((lvlFortyStatRES - lvlOneStatRES) == 22){
+    cout<<("RES: This stat is a superbane...")<<endl;
+}
+else if((lvlFortyStatRES - lvlOneStatRES) == 33){
+    cout<<("RES: This stat is a superbane...")<<endl;
+}
+else
+cout<<("RES: This stat is the usual +3/-3")<<endl;
+
+cout<<"======================================="<<endl;
+cout<<endl;
+}
